@@ -5,6 +5,7 @@ Newest first. Version numbers match the DMG and the About box.
 ## Unreleased
 
 - Lists: Tab nests an item under the previous one and restarts numbering at 1; Shift+Tab moves it back out. Surrounding numbers fix themselves. Previously Tab added two spaces and left the number alone.
+- Lists: Enter on any line of an item starts the next item, including the wrapped lines of a long item. Shift+Enter is a line break inside the item. Previously Enter on a wrapped line only added a line break.
 
 ## 0.1.0 · 2026-09-03
 
