@@ -2,6 +2,10 @@
 
 Newest first. Version numbers match the DMG and the About box.
 
+## Unreleased
+
+- Lists: Tab nests an item under the previous one and restarts numbering at 1; Shift+Tab moves it back out. Surrounding numbers fix themselves. Previously Tab added two spaces and left the number alone.
+
 ## 0.1.0 · 2026-09-03
 
 First build to leave the machine. Tester release.
