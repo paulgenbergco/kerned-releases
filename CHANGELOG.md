@@ -2,8 +2,13 @@
 
 Newest first. Version numbers match the DMG and the About box.
 
-## Unreleased
+## 0.1.1 · 2026-09-04
 
+**Fixes saving.** 0.1.0 could not save at all from the packaged app ("Could not save file: expected raw body"): the app's security policy blocked the fast IPC path and the fallback path was refused. If you have 0.1.0, replace it with this build.
+
+Also list editing. Same file-safety contract.
+
+- Saving works in the packaged app. Regression test added to the release routine.
 - Lists: Tab nests an item under the previous one and restarts numbering at 1; Shift+Tab moves it back out. Surrounding numbers fix themselves. Previously Tab added two spaces and left the number alone.
 - Lists: Enter on any line of an item starts the next item, including the wrapped lines of a long item. Shift+Enter is a line break inside the item. Previously Enter on a wrapped line only added a line break.
 - Lists: a numbered item whose first line is a heading (`1. ## Title`) keeps its number at body size, the way Bear does, instead of a clipped sliver.
