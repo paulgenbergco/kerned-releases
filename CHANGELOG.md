@@ -6,7 +6,9 @@ Newest first. Version numbers match the DMG and the About box.
 
 - Lists: Tab nests an item under the previous one and restarts numbering at 1; Shift+Tab moves it back out. Surrounding numbers fix themselves. Previously Tab added two spaces and left the number alone.
 - Lists: Enter on any line of an item starts the next item, including the wrapped lines of a long item. Shift+Enter is a line break inside the item. Previously Enter on a wrapped line only added a line break.
-- Lists: a numbered item whose first line is a heading (`1. ## Title`) shows its number at the heading's size instead of a clipped sliver.
+- Lists: a numbered item whose first line is a heading (`1. ## Title`) keeps its number at body size, the way Bear does, instead of a clipped sliver.
+- Lists: wrapped lines inside an item now line up with the item's first line, and each nested level indents by the theme's list indent.
+- Lists: bullets are drawn shapes that change by level (dot, ring, square) so nesting reads at a glance.
 
 ## 0.1.0 · 2026-09-03
 
