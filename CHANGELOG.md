@@ -2,6 +2,20 @@
 
 Newest first. Version numbers match the DMG and the About box.
 
+## 0.1.2 · 2026-09-08
+
+**Window chrome, and light or dark without leaving the app.** The tray now owns the left edge the way a real sidebar does, the style bar folds out of the way when you want the width back, and the appearance is finally yours to pick rather than whatever the Mac is doing.
+
+- The tray runs the full height of the window, title bar included, with one divider between it and the document. The traffic lights sit over its header.
+- A New Document button sits beside the traffic lights: in the tray's header while it is open, in the title bar when it is not, the same spot either way.
+- The tray hides and comes back from View > Tray, Option+Cmd+S, or its button, and resizes by dragging its right edge. Double-click the edge to put the width back.
+- The style bar collapses rather than disappearing. A tab on its right edge slides the bar out past the edge and stays behind, flush in the gutter, so the control that brings it back sits exactly where it went. The document takes back the width the bar was holding. Shift+Cmd+Y and View > Style Bar do the same thing.
+- Appearance: System, Light or Dark, from the switch at the foot of the style bar or View > Appearance. It carries through the document, the window chrome and the traffic lights, and defaults to System. This is the one and only display setting.
+- The list menu has icons for bullet, numbered and task lists. The separate task button is gone; it was the same command twice. The More menu has icons too.
+- Tray width and visibility, the style bar's state and the appearance choice are all remembered across launches.
+
+Same file-safety contract.
+
 ## 0.1.1 · 2026-09-04
 
 **Fixes saving.** 0.1.0 could not save at all from the packaged app ("Could not save file: expected raw body"): the app's security policy blocked the fast IPC path and the fallback path was refused. If you have 0.1.0, replace it with this build.
