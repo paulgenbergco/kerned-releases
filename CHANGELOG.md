@@ -2,6 +2,20 @@
 
 Newest first. Version numbers match the DMG and the About box.
 
+## 0.1.3 · 2026-09-08
+
+**Kerned can update itself.** This is the last build you have to download by hand. From here it tells you when there is a newer one and installs it for you.
+
+- Kerned checks once a day, shortly after launch, and says nothing unless there is something newer. A version you wave away is not offered again.
+- Kerned > Check for Updates… always answers, including "up to date" and any error, because you asked.
+- An update shows as a small pill at the bottom of the window with the version, a link to the notes and Install. Nothing is downloaded until you press it.
+- Installing swaps the app in place. Restarting is a separate step, and it asks about unsaved work first with the same prompt Quit uses. If you say no, the new version simply starts the next time you open Kerned.
+- The check sends the platform, the architecture and the version you are running. Nothing else: no account, no identifier, nothing about your documents. The editor itself still cannot reach the network at all.
+
+Apple Silicon only, which is what the download has always been.
+
+Same file-safety contract.
+
 ## 0.1.2 · 2026-09-08
 
 **Window chrome, and light or dark without leaving the app.** The tray now owns the left edge the way a real sidebar does, the style bar folds out of the way when you want the width back, and the appearance is finally yours to pick rather than whatever the Mac is doing.
