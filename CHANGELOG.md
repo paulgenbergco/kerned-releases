@@ -2,6 +2,17 @@
 
 Newest first. Version numbers match the DMG and the About box.
 
+## 0.1.4 · 2026-09-08
+
+**This release exists to prove the updater works.** 0.1.3 could update itself in testing, but only from a copy built on the machine. This is the first one that has to travel the real path: an app that came out of a DMG, sitting in Applications, replacing itself. If your 0.1.3 offered you this build and you are reading these notes in 0.1.4, it worked.
+
+There is almost nothing else in it, on purpose.
+
+- The Heading menu has icons now, an H sized to each level. It was the last of the three menus without them.
+- Internal tidying with no visible effect: the handful of places that pull a file name or folder out of a path now share one piece of code.
+
+Same file-safety contract.
+
 ## 0.1.3 · 2026-09-08
 
 **Kerned can update itself.** This is the last build you have to download by hand. From here it tells you when there is a newer one and installs it for you.
