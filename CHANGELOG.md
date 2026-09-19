@@ -4,7 +4,7 @@ Newest first. Version numbers match the DMG and the About box.
 
 ## 0.1.5 · 2026-09-18
 
-**The first-time-user fixes.** Dhaval sent twelve numbered reports with screenshots. Five of them were one bug, and this build closes those five plus three more. Nothing new; everything that made the editor feel broken in the first minute.
+**The first-time-user fixes.** User sent twelve numbered reports with screenshots. Five of them were one bug, and this build closes those five plus three more. Nothing new; everything that made the editor feel broken in the first minute.
 
 - Every style bar command that adds a marker (heading, list, task, quote) now puts the caret after it, so what you type lands inside the new block instead of in front of the marker.
 - A typed numbered list continues on Enter and nests on Tab the moment you type it, including right below a diagram. Enter on an empty item ends the list.
