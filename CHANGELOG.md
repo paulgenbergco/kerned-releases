@@ -2,6 +2,18 @@
 
 Newest first. Version numbers match the DMG and the About box.
 
+## 0.1.5 · 2026-09-18
+
+**The first-time-user fixes.** Dhaval sent twelve numbered reports with screenshots. Five of them were one bug, and this build closes those five plus three more. Nothing new; everything that made the editor feel broken in the first minute.
+
+- Every style bar command that adds a marker (heading, list, task, quote) now puts the caret after it, so what you type lands inside the new block instead of in front of the marker.
+- A typed numbered list continues on Enter and nests on Tab the moment you type it, including right below a diagram. Enter on an empty item ends the list.
+- Typing `*`, `_` or a backtick over the closing one Kerned just inserted steps past it instead of adding another pair, so `***` and `___` type through for a horizontal rule.
+- The arrow keys never leave the caret on a code fence line, where typing used to break the block open. A code block at the end of a document always has a line after it to move to.
+- Bullets, checkboxes and numbers now share one shade.
+
+Same file-safety contract.
+
 ## 0.1.4 · 2026-09-08
 
 **This release exists to prove the updater works.** 0.1.3 could update itself in testing, but only from a copy built on the machine. This is the first one that has to travel the real path: an app that came out of a DMG, sitting in Applications, replacing itself. If your 0.1.3 offered you this build and you are reading these notes in 0.1.4, it worked.
